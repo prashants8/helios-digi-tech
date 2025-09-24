@@ -85,7 +85,7 @@ const AboutSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
               <div>
                 <div className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  10+
+                  3+
                 </div>
                 <div className="text-muted-foreground mt-2">Years of Excellence</div>
               </div>
@@ -97,7 +97,7 @@ const AboutSection = () => {
               </div>
               <div>
                 <div className="text-4xl font-bold bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
-                  500+
+                  20+
                 </div>
                 <div className="text-muted-foreground mt-2">Happy Clients</div>
               </div>

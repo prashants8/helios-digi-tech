@@ -135,7 +135,7 @@ const About = () => {
                 </div>
                 <div>
                   <Users className="w-12 h-12 mx-auto mb-3 text-secondary" />
-                  <div className="text-3xl font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">500+</div>
+                  <div className="text-3xl font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">20+</div>
                   <p className="text-muted-foreground">Happy Clients</p>
                 </div>
                 <div>

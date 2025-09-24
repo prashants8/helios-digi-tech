@@ -103,16 +103,10 @@ const Footer = () => {
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <Phone size={16} className="text-secondary mt-0.5" />
-                <span className="text-muted-foreground text-sm">
-                  +1 (555) 123-4567
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-secondary mt-0.5" />
                 <span className="text-muted-foreground text-sm">
-                  Tech Hub, Innovation District<br />
-                  Silicon Valley, CA 94025
+                  Ahmedabad, Gujarat<br />
+                  India
                 </span>
               </li>
             </ul>
