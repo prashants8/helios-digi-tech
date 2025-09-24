@@ -10,9 +10,9 @@ const About = () => {
   const milestones = [
     { year: "2014", event: "Company Founded", description: "Started with a vision to simplify IT" },
     { year: "2016", event: "Global Expansion", description: "Opened offices in 3 countries" },
-    { year: "2018", event: "100+ Clients", description: "Reached our first major milestone" },
+    { year: "2018", event: "20+ Clients", description: "Reached our first major milestone" },
     { year: "2020", event: "Cloud Excellence", description: "Became certified partners with AWS, Azure" },
-    { year: "2022", event: "500+ Projects", description: "Successfully delivered across industries" },
+    { year: "2022", event: "120+ Projects", description: "Successfully delivered across industries" },
     { year: "2024", event: "Innovation Leader", description: "Recognized as industry innovator" },
   ];
 
