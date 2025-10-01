@@ -17,7 +17,7 @@ const About = () => {
     {
       name: "Prashant Shukla",
       role: "CEO & Founder",
-      description: "3+ years in enterprise technology",
+      description: "3+ years in IT Industry",
     },
     {
       name: "Vatsal Mishra",
