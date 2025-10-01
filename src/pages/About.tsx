@@ -78,8 +78,8 @@ const About = () => {
                   {milestones.map((milestone, index) => (
                     <div key={milestone.year} className="flex gap-6 animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
                       <div className="relative">
-                        <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-primary-foreground font-bold">
-                          {milestone.year.slice(2)}
+                        <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-primary-foreground font-bold text-2xl">
+                          {index + 1}
                         </div>
                         {/* Connection dot */}
                         <div className="absolute top-1/2 -translate-y-1/2 -right-3 w-2 h-2 rounded-full bg-primary" />

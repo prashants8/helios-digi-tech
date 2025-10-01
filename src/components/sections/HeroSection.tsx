@@ -87,7 +87,7 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 animate-fade-in" style={{ animationDelay: "0.8s" }}>
             {[
-              { value: "500+", label: "Clients Served" },
+              { value: "20+", label: "Clients Served" },
               { value: "98%", label: "Satisfaction Rate" },
               { value: "24/7", label: "Support Available" },
               { value: "50+", label: "Tech Experts" },
