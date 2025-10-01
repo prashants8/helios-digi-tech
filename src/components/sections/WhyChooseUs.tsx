@@ -108,7 +108,7 @@ const WhyChooseUs = () => {
             Ready to Transform Your Business?
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Join hundreds of companies that have already elevated their IT infrastructure with Helios Digital
+            Join 20+ companies that have already elevated their IT infrastructure with Helios Digital
           </p>
         </div>
       </div>

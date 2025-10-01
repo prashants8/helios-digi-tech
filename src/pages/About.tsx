@@ -8,32 +8,29 @@ import { Award, Globe, Users, TrendingUp } from "lucide-react";
 
 const About = () => {
   const milestones = [
-    { year: "2014", event: "Company Founded", description: "Started with a vision to simplify IT" },
-    { year: "2016", event: "Global Expansion", description: "Opened offices in 3 countries" },
     { year: "2018", event: "20+ Clients", description: "Reached our first major milestone" },
     { year: "2020", event: "Cloud Excellence", description: "Became certified partners with AWS, Azure" },
     { year: "2022", event: "120+ Projects", description: "Successfully delivered across industries" },
-    { year: "2024", event: "Innovation Leader", description: "Recognized as industry innovator" },
   ];
 
   const leadership = [
     {
-      name: "Sarah Johnson",
+      name: "Prashant Shukla",
       role: "CEO & Founder",
       description: "20+ years in enterprise technology",
     },
     {
-      name: "Michael Chen",
+      name: "Vatsal Mishra",
       role: "CTO",
       description: "Former architect at leading tech companies",
     },
     {
-      name: "Emily Rodriguez",
+      name: "Yogesh Singh",
       role: "Head of Innovation",
       description: "Pioneer in AI and machine learning solutions",
     },
     {
-      name: "David Kumar",
+      name: "Shubham Mishra",
       role: "VP of Operations",
       description: "Expert in scaling global IT operations",
     },
@@ -54,7 +51,7 @@ const About = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground">
-                Your trusted partner in digital transformation since 2014
+                Your trusted partner in digital transformation since 2022
               </p>
             </div>
           </div>
@@ -123,25 +120,20 @@ const About = () => {
           </div>
         </section>
 
-        {/* Global Presence */}
+        {/* Stats */}
         <section className="py-20 bg-gradient-to-b from-card/30 to-background">
           <div className="container mx-auto px-4">
             <Card className="p-12 bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 border-primary/20">
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-                <div>
-                  <Globe className="w-12 h-12 mx-auto mb-3 text-primary" />
-                  <div className="text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">6</div>
-                  <p className="text-muted-foreground">Global Offices</p>
-                </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                 <div>
                   <Users className="w-12 h-12 mx-auto mb-3 text-secondary" />
                   <div className="text-3xl font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">20+</div>
                   <p className="text-muted-foreground">Happy Clients</p>
                 </div>
                 <div>
-                  <Award className="w-12 h-12 mx-auto mb-3 text-accent" />
-                  <div className="text-3xl font-bold bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">15+</div>
-                  <p className="text-muted-foreground">Industry Awards</p>
+                  <Globe className="w-12 h-12 mx-auto mb-3 text-primary" />
+                  <div className="text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">120+</div>
+                  <p className="text-muted-foreground">Projects Delivered</p>
                 </div>
                 <div>
                   <TrendingUp className="w-12 h-12 mx-auto mb-3 text-primary" />

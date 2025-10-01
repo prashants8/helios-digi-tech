@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Mail, Phone, MapPin, Clock, MessageSquare, Send } from "lucide-react";
+import { Mail, MapPin, Clock, Send } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -25,18 +25,6 @@ const Contact = () => {
       title: "Email Us",
       details: "info@heliosdigital.tech",
       action: "mailto:info@heliosdigital.tech",
-    },
-    {
-      icon: Phone,
-      title: "Call Us",
-      details: "+1 (555) 123-4567",
-      action: "tel:+15551234567",
-    },
-    {
-      icon: MessageSquare,
-      title: "WhatsApp",
-      details: "Quick Response",
-      action: "https://wa.me/15551234567",
     },
     {
       icon: Clock,
@@ -197,15 +185,9 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-2">Headquarters</h3>
                       <p className="text-muted-foreground">
-                        Tech Hub, Innovation District<br />
-                        Silicon Valley, CA 94025<br />
-                        United States
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-2">Global Presence</h3>
-                      <p className="text-muted-foreground">
-                        Offices in New York, London, Singapore, Dubai, and Sydney
+                        Ahmedabad<br />
+                        Gujarat<br />
+                        India
                       </p>
                     </div>
                   </div>
@@ -231,7 +213,7 @@ const Contact = () => {
                 <MapPin className="w-12 h-12 mx-auto mb-4 text-primary" />
                 <p className="text-muted-foreground">Interactive Map</p>
                 <p className="text-sm text-muted-foreground mt-2">
-                  Silicon Valley, CA 94025
+                  Ahmedabad, Gujarat, India
                 </p>
               </div>
             </Card>
