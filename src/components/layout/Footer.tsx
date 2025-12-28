@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
+import { Mail, MapPin, Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
 import heliosLogo from "@/assets/helios-logo.jpg";
 
 const Footer = () => {
@@ -22,7 +22,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-card/50 backdrop-blur-sm border-t border-border">
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
@@ -60,7 +60,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-primary">Our Services</h3>
+            <h3 className="font-semibold text-base mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Our Services</h3>
             <ul className="space-y-2">
               {services.map((service) => (
                 <li key={service}>
@@ -77,7 +77,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-primary">Quick Links</h3>
+            <h3 className="font-semibold text-base mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Quick Links</h3>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.href}>
@@ -94,16 +94,16 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-primary">Contact Us</h3>
+            <h3 className="font-semibold text-base mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
-                <Mail size={16} className="text-secondary mt-0.5" />
+                <Mail size={16} className="text-primary mt-0.5" />
                 <span className="text-muted-foreground text-sm">
                   info@heliosdigital.tech
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <MapPin size={16} className="text-secondary mt-0.5" />
+                <MapPin size={16} className="text-primary mt-0.5" />
                 <span className="text-muted-foreground text-sm">
                   Ahmedabad, Gujarat<br />
                   India
@@ -114,7 +114,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-border">
+        <div className="mt-10 pt-6 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-sm">
               © 2024 Helios Digital Technology. All rights reserved.
