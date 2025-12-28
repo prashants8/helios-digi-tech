@@ -48,10 +48,10 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-card/30">
+    <section className="py-16 bg-gradient-to-b from-card/20 to-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        <div className="text-center mb-10">
+          <h2 className="text-3xl md:text-4xl font-bold mb-3">
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Why Choose Helios Digital?
             </span>
@@ -61,26 +61,26 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {benefits.map((benefit, index) => {
             const Icon = benefit.icon;
             return (
               <Card 
                 key={benefit.title}
-                className="relative p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-glow overflow-hidden group animate-fade-in"
+                className="relative p-5 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-glow overflow-hidden group animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 {/* Background decoration */}
-                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary/10 to-transparent rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500" />
+                <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-primary/10 to-transparent rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500" />
                 
-                <div className="relative space-y-4">
+                <div className="relative space-y-3">
                   {/* Icon and Stat */}
                   <div className="flex items-start justify-between">
-                    <div className="p-3 rounded-lg bg-gradient-to-br from-primary to-accent inline-block">
-                      <Icon className="w-6 h-6 text-primary-foreground" />
+                    <div className="p-2.5 rounded-lg bg-gradient-to-br from-primary to-accent inline-block">
+                      <Icon className="w-5 h-5 text-primary-foreground" />
                     </div>
                     <div className="text-right">
-                      <div className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                      <div className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                         {benefit.stat}
                       </div>
                       <div className="text-xs text-muted-foreground">
@@ -91,7 +91,7 @@ const WhyChooseUs = () => {
                   
                   {/* Content */}
                   <div>
-                    <h3 className="text-lg font-semibold mb-2">{benefit.title}</h3>
+                    <h3 className="text-base font-semibold mb-1">{benefit.title}</h3>
                     <p className="text-sm text-muted-foreground">
                       {benefit.description}
                     </p>
@@ -100,16 +100,6 @@ const WhyChooseUs = () => {
               </Card>
             );
           })}
-        </div>
-
-        {/* Bottom CTA */}
-        <div className="mt-12 text-center p-8 rounded-xl bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 border border-primary/20">
-          <h3 className="text-2xl font-semibold mb-3">
-            Ready to Transform Your Business?
-          </h3>
-          <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Join 20+ companies that have already elevated their IT infrastructure with Helios Digital
-          </p>
         </div>
       </div>
     </section>

@@ -20,14 +20,14 @@ const Index = () => {
         <WhyChooseUs />
         
         {/* Call to Action Section */}
-        <section className="py-20 bg-gradient-to-b from-card/30 to-background">
+        <section className="py-16 bg-gradient-to-b from-background to-card/20">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 Ready to Get Started?
               </span>
             </h2>
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
               Let's discuss how we can help transform your business with our IT solutions
             </p>
             <Link to="/request-service">

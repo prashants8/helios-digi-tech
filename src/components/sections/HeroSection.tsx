@@ -5,25 +5,25 @@ import heliosLogo from "@/assets/helios-logo.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-card/30 to-background" />
-      <div className="absolute inset-0 bg-gradient-to-t from-primary/5 via-transparent to-secondary/5" />
+      <div className="absolute inset-0 bg-gradient-to-t from-primary/5 via-transparent to-accent/5" />
       
-      {/* Animated gradient orbs */}
-      <div className="absolute top-20 left-10 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-float" />
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/20 rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }} />
+      {/* Animated gradient orbs - unified orange */}
+      <div className="absolute top-20 left-10 w-96 h-96 bg-primary/15 rounded-full blur-3xl animate-float" />
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/15 rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }} />
       
       {/* Grid pattern overlay */}
-      <div className="absolute inset-0 opacity-50" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='grid' width='60' height='60' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 60 0 L 0 0 0 60' fill='none' stroke='rgba(255,215,0,0.05)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grid)'/%3E%3C/svg%3E")` }} />
+      <div className="absolute inset-0 opacity-40" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='grid' width='60' height='60' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 60 0 L 0 0 0 60' fill='none' stroke='rgba(255,140,0,0.05)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grid)'/%3E%3C/svg%3E")` }} />
 
-      <div className="container mx-auto px-4 py-20 relative z-10">
-        <div className="max-w-5xl mx-auto text-center space-y-8">
+      <div className="container mx-auto px-4 py-16 relative z-10">
+        <div className="max-w-5xl mx-auto text-center space-y-6">
           {/* Logo Animation */}
-          <div className="flex justify-center mb-8 animate-fade-in">
+          <div className="flex justify-center mb-6 animate-fade-in">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent blur-xl opacity-50 animate-pulse" />
-              <div className="relative w-32 h-32 rounded-full overflow-hidden ring-4 ring-primary/30 shadow-glow">
+              <div className="relative w-28 h-28 rounded-full overflow-hidden ring-4 ring-primary/30 shadow-glow">
                 <img 
                   src={heliosLogo} 
                   alt="Helios Digital Technology" 
@@ -51,7 +51,7 @@ const HeroSection = () => {
               with Scalable, Cost-Effective
             </span>
             <br />
-            <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
               IT Solutions
             </span>
           </h1>
@@ -82,25 +82,6 @@ const HeroSection = () => {
                 Explore Services
               </Button>
             </Link>
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 animate-fade-in" style={{ animationDelay: "0.8s" }}>
-            {[
-              { value: "20+", label: "Clients Served" },
-              { value: "98%", label: "Satisfaction Rate" },
-              { value: "24/7", label: "Support Available" },
-              { value: "50+", label: "Tech Experts" },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center">
-                <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  {stat.value}
-                </div>
-                <div className="text-sm text-muted-foreground mt-2">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </div>
