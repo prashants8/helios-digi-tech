@@ -5,7 +5,7 @@ import heliosLogo from "@/assets/helios-logo.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-card/30 to-background" />
       <div className="absolute inset-0 bg-gradient-to-t from-primary/5 via-transparent to-accent/5" />
@@ -17,10 +17,10 @@ const HeroSection = () => {
       {/* Grid pattern overlay */}
       <div className="absolute inset-0 opacity-40" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='grid' width='60' height='60' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 60 0 L 0 0 0 60' fill='none' stroke='rgba(255,140,0,0.05)' stroke-width='1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grid)'/%3E%3C/svg%3E")` }} />
 
-      <div className="container mx-auto px-4 py-16 relative z-10">
-        <div className="max-w-5xl mx-auto text-center space-y-6">
+      <div className="container mx-auto px-4 py-10 relative z-10">
+        <div className="max-w-5xl mx-auto text-center space-y-5">
           {/* Logo Animation */}
-          <div className="flex justify-center mb-6 animate-fade-in">
+          <div className="flex justify-center mb-4 animate-fade-in">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent blur-xl opacity-50 animate-pulse" />
               <div className="relative w-28 h-28 rounded-full overflow-hidden ring-4 ring-primary/30 shadow-glow">

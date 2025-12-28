@@ -26,22 +26,22 @@ const AboutSection = () => {
   ];
 
   return (
-    <section className="py-16 bg-gradient-to-b from-card/20 to-background">
+    <section className="py-12 bg-gradient-to-b from-card/20 to-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl md:text-4xl font-bold mb-3">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold mb-2">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 About Helios Digital
               </span>
             </h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-muted-foreground max-w-3xl mx-auto">
               Simplifying technology for startups, SMEs, and enterprises worldwide
             </p>
           </div>
 
           {/* Mission Statement */}
-          <Card className="p-6 md:p-8 mb-10 bg-card/50 backdrop-blur-sm border-primary/20">
+          <Card className="p-5 md:p-6 mb-6 bg-card/50 backdrop-blur-sm border-primary/20">
             <div className="space-y-3">
               <h3 className="text-xl font-semibold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Our Mission</h3>
               <p className="text-muted-foreground leading-relaxed">

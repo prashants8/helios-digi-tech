@@ -41,28 +41,13 @@ const About = () => {
       <Header />
       
       <main className="pt-20">
-        {/* Hero Section */}
-        <section className="py-20 bg-gradient-to-b from-card/30 to-background">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  About Helios Digital
-                </span>
-              </h1>
-              <p className="text-lg text-muted-foreground">
-                Your trusted partner in digital transformation since 2022
-              </p>
-            </div>
-          </div>
-        </section>
-
+        {/* About Section with Mission & Values */}
         <AboutSection />
 
         {/* Company Journey */}
-        <section className="py-20 bg-gradient-to-b from-card/30 to-background">
+        <section className="py-12 bg-gradient-to-b from-card/30 to-background">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12">
+            <h2 className="text-3xl font-bold text-center mb-8">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 Our Journey
               </span>
@@ -97,9 +82,9 @@ const About = () => {
         </section>
 
         {/* Leadership Team */}
-        <section className="py-20">
+        <section className="py-12">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12">
+            <h2 className="text-3xl font-bold text-center mb-8">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 Leadership Team
               </span>
@@ -121,7 +106,7 @@ const About = () => {
         </section>
 
         {/* Stats */}
-        <section className="py-20 bg-gradient-to-b from-card/30 to-background">
+        <section className="py-12 bg-gradient-to-b from-card/30 to-background">
           <div className="container mx-auto px-4">
             <Card className="p-12 bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 border-primary/20">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
@@ -146,12 +131,12 @@ const About = () => {
         </section>
 
         {/* CTA */}
-        <section className="py-20">
+        <section className="py-12">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-6">
+            <h2 className="text-3xl font-bold mb-4">
               Let's Build Something Amazing Together
             </h2>
-            <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
               Join hundreds of companies that trust Helios Digital for their technology needs
             </p>
             <Link to="/contact">
